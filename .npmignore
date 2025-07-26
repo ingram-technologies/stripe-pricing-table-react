@@ -1,0 +1,37 @@
+# Source files
+src/
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+__tests__/
+coverage/
+
+# Config files
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.gitignore
+.eslintrc*
+.prettierrc*
+
+# Development files
+*.log
+.DS_Store
+node_modules/
+.env
+.env.*
+
+# Build artifacts not needed
+*.tsbuildinfo
+
+# Editor directories
+.vscode/
+.idea/
+
+# Other
+.github/
+docs/
+examples/
